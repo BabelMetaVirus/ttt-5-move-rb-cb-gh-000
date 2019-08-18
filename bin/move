@@ -3,3 +3,14 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+
+# welcome the player
+puts "Welcome to Tic Tac Toe!"
+# create the empty board
+board = [ " ", " ", " ", 
+          " ", " ", " ",
+          " ", " ", " "]
+# ask the user for input
+# convert user input to integer form
+# apply the move the user made
+# display thye board
