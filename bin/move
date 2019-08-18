@@ -11,6 +11,11 @@ board = [ " ", " ", " ",
           " ", " ", " ",
           " ", " ", " "]
 # ask the user for input
+"Where would you like to go?"
+input = gets.strip
 # convert user input to integer form
+index = input_to_index(input)
 # apply the move the user made
-# display thye board
+move(board, index)
+# display the board
+display_board(board)
